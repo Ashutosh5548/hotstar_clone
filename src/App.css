@@ -1,38 +1,200 @@
-.App {
-  text-align: center;
+
+.side-bar{
+  height: 1100px;
+  width: 70px;
+  background-color: black;
+}
+div.gallery {
+  
+  float: left;
+  width: 250px;
+  padding: 15px;
+  background-color: black;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+div.gallery img {
+  margin-right: 0px;
+  margin-left: 15px;
+  display:block;
+  border-radius: 3px;
+  width: 100%;
+  height: 150px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+div.home{
+  background-color: black;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+
+div.home1{
+  width: 120px;
+  display: block;
+}
+
+.home-page{
+  width: 1170px;
+}
+
+.exp-btn{
+  background-color: #01147C;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  padding: 10px 100px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  opacity: 0.9;
+  margin: 0;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.home-btn{
+  background-color: black;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  font-size: 30px;
+  position: absolute;
+  top: 40%;
+}
+
+.search-btn{
+  background-color: black;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  font-size: 30px;
+  position: absolute;
+  top: 50%;
+}
+
+.tv-btn{
+  background-color: black;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  font-size: 30px;
+  position: absolute;
+  top: 60%;
+}
+
+.dis-btn{
+  background-color: black;
+  color: navy;
+  padding: 10px 20px;
+  border: none;
+  font-size: 30px;
+  position: absolute;
+  top: 30%;
+}
+
+div.landing{
+  background-image:url(./images/background-landing.jpeg);
+  width: 1280px;
+  height: 551px;
+  opacity: 0.85;
+}
+
+.moviescreening{
+  background-image: url("https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/49B92C046117E89BC9243A68EE277A3B30D551D4599F23C10BF0B8C1E90AEFB6/scale?width=1440&aspectRatio=1.78&format=jpeg");
+  width: 1280px;
+  height: 551px;
+}
+
+.play-btn{
+  position: absolute;
+  top: 65%;
+  left: 0.5%;
+  padding: 5px 12px;
+  text-align: center;
+  border: none;
+  border-radius: 5px;
+}
+
+.trailer-btn{
+  position: absolute;
+  top: 65%;
+  left: 6.5%;
+  text-align: center;
+  padding: 4px 10px;
+  background-color: #323639;
+  border-color: white;
+  border-radius: 5px;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.plus-btn{
+  position: absolute;
+  top: 64.8%;
+  left: 12.8%;
+  padding: 4px 9px;
+  border: none;
+  border-radius: 100%;
+  background-color: #323639;
+  border-color: white;
+  color: white;
+  text-align: center;
+  font-size: 16px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.description h6{
+  color: white;
+  top: 67%;
+  left: 0.5%;
+  position: absolute;
+}
+.description h5{
+  color: white;
+  top: 72%;
+  left: 0.5%;
+  position: absolute;
+}
+
+.navbar{
+  background-color: black;
+  height: 50px;
+}
+
+.login{
+  position: absolute;
+  left: 95%;
+  top: 1%;
+  
+}
+.log-btn{
+  background-color: black;
+  border: none;
+  border-radius: 4px;
+  color: white;
+}
+
+.play-black{
+  color: white;
+}
+
+.slider-1{
+  width: 1150px;
+}
+
+.logo-hotstar{
+  height: 80px;
+  width: 80px;
+  position: absolute;
+  left: 0.5%;
+  top:0.5%;
+}
+
+.landing_logo{
+  height: 200px;
+  width: 200px;
+  position: absolute;
+  top: 30%;
+  left: 42%;
 }
